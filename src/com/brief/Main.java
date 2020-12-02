@@ -10,8 +10,7 @@ public class Main {
 //        fonction.numbers(2.0,3.0);
 //        fonction.bonjour("Bouchra","marzak",31);
 //        fonction.sexGenre("homme",24);
-        Collections col = new Collections();
-        ArrayList li = col.Mois();
+        ArrayList li = Collections.Mois();
         for (Object o : li) {
             System.out.println(o);
         }
